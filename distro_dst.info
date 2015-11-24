@@ -1,0 +1,93 @@
+name = "DST distro"
+description = "Datasite Technology distro"
+core = "7.x"
+
+;==============Drupal core modules
+;required
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = image
+dependencies[] = list
+dependencies[] = locale
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = rdf
+dependencies[] = search
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = toolbar
+dependencies[] = update
+dependencies[] = user
+
+;not required
+dependencies[] = dashboard
+dependencies[] = overlay
+dependencies[] = date
+dependencies[] = date_api
+dependencies[] = date_popup
+dependencies[] = date_views
+dependencies[] = contact
+
+;==============Additional modules
+
+;entity
+dependencies[] = entity
+
+;token
+dependencies[] = token
+
+;image
+dependencies[] = image 
+
+;colorbox
+dependencies[] = colorbox
+dependencies[] = colorbox_node
+    
+;UI
+dependencies[] = jquery_update
+dependencies[] = ckeditor
+    
+;admin
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+
+;Development modules
+dependencies[] = devel
+
+;libraries
+dependencies[] = libraries
+    
+;sass
+dependencies[] = prepro
+dependencies[] = sassy
+dependencies[] = sassy_compass
+
+;language
+dependencies[] = locale
+
+;Auto
+dependencies[] = pathauto
+dependencies[] = transliteration
+
+;views
+dependencies[] = views
+dependencies[] = views_ui
+
+;webform
+dependencies[] = webform
+
+;others
+dependencies[] = empty_front_page
+
