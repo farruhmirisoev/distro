@@ -2,11 +2,12 @@ name = "DST distro"
 description = "Datasite Technology distro"
 core = "7.x"
 
-;==============Drupal core modules
-;required
+; Install necessary core modules.
 dependencies[] = block
 dependencies[] = color
-dependencies[] = comment
+
+;dependencies[] = comment
+
 dependencies[] = contextual
 dependencies[] = dblog
 dependencies[] = field
@@ -27,11 +28,13 @@ dependencies[] = search
 dependencies[] = system
 dependencies[] = taxonomy
 dependencies[] = text
-dependencies[] = toolbar
-dependencies[] = update
+
+;dependencies[] = toolbar
+;dependencies[] = update
+
 dependencies[] = user
 
-;not required
+;nice to have
 dependencies[] = dashboard
 dependencies[] = overlay
 dependencies[] = date
@@ -40,7 +43,7 @@ dependencies[] = date_popup
 dependencies[] = date_views
 dependencies[] = contact
 
-;==============Additional modules
+;==============Install contrib dependencies
 
 ;entity
 dependencies[] = entity
@@ -63,7 +66,7 @@ dependencies[] = ckeditor
 dependencies[] = admin_menu
 dependencies[] = admin_menu_toolbar
 
-;Development modules
+;development modules
 dependencies[] = devel
 
 ;libraries
@@ -77,7 +80,7 @@ dependencies[] = sassy_compass
 ;language
 dependencies[] = locale
 
-;Auto
+;auto
 dependencies[] = pathauto
 dependencies[] = transliteration
 
