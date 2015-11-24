@@ -12,13 +12,13 @@
 
 function distro_dst_install() {
     // Тут мы пишем все что нужно выполнить в момент установки.
-    // Для примера давайте сделаем чтобы тема админки и сайта была Garland.
+    // Для примера давайте сделаем чтобы тема админки и сайта была Seven.
     // Так как данные значения хранятся в таблице variables, мы с легкостью
     // можем использовать функции variable_set, variable_get.
     // Устанавливаем основную тему для сайта - dst.
     variable_set('theme_default', 'dst');
-    // Устанавливаем тему для админки - Garland.
-    variable_set('admin_theme', 'garland');
+    // Устанавливаем тему для админки - Seven.
+    variable_set('admin_theme', 'seven');
     // Делаем чтобы тема админки использовалась при редактировании контента.
     variable_set('node_admin_theme', '1');
 
@@ -30,7 +30,7 @@ function distro_dst_install() {
     array(
       'module' => 'system',
       'delta' => 'main',
-      'theme' => 'garland',
+      'theme' => 'seven',
       'status' => 1,
       'weight' => 0,
       'region' => 'content',
@@ -41,7 +41,7 @@ function distro_dst_install() {
     array(
       'module' => 'user',
       'delta' => 'login',
-      'theme' => 'garland',
+      'theme' => 'seven',
       'status' => 1,
       'weight' => 0,
       'region' => 'sidebar_first',

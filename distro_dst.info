@@ -88,9 +88,13 @@ dependencies[] = transliteration
 dependencies[] = views
 dependencies[] = views_ui
 
+;field
+dependencies[] = field_collection
+
 ;webform
 dependencies[] = webform
 
 ;others
 dependencies[] = empty_front_page
+dependencies[] = module_filter
 
