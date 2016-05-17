@@ -73,9 +73,9 @@ dependencies[] = devel
 dependencies[] = libraries
     
 ;sass
-dependencies[] = prepro
-dependencies[] = sassy
-dependencies[] = sassy_compass
+;dependencies[] = prepro
+;dependencies[] = sassy
+;dependencies[] = sassy_compass
 
 ;language
 dependencies[] = locale
