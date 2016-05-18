@@ -553,19 +553,123 @@ table {
   src: url("../fonts/RobotoRegular.eot");
   src: url("../fonts/RobotoRegular.eot") format("embedded-opentype"), url("../fonts/RobotoRegular.woff2") format("woff2"), url("../fonts/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular.ttf") format("truetype"), url("../fonts/RobotoRegular.svg#RobotoRegular") format("svg");
 }
-/* line 10, ../scss/main.scss */
-ul, li, ul.menu li {
+/* line 106, ../../../../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 87.5%;
+  line-height: 1.5em;
+}
+
+/* Some typography rules */
+/* line 17, ../scss/_typography.scss */
+h1 {
+  font-size: 34px;
+  font-size: 2.42857rem;
+  line-height: 42px;
+  line-height: 3rem;
+  margin-top: 21px;
+  margin-top: 1.5rem;
+  margin-bottom: 21px;
+  margin-bottom: 1.5rem;
+}
+
+/* line 23, ../scss/_typography.scss */
+h2 {
+  font-size: 25px;
+  font-size: 1.78571rem;
+  line-height: 42px;
+  line-height: 3rem;
+  margin-top: 21px;
+  margin-top: 1.5rem;
+  margin-bottom: 21px;
+  margin-bottom: 1.5rem;
+}
+
+/* line 29, ../scss/_typography.scss */
+h3 {
+  font-size: 20px;
+  font-size: 1.42857rem;
+  line-height: 21px;
+  line-height: 1.5rem;
+  margin-top: 21px;
+  margin-top: 1.5rem;
+  margin-bottom: 21px;
+  margin-bottom: 1.5rem;
+}
+
+/* line 35, ../scss/_typography.scss */
+h4 {
+  font-size: 18px;
+  font-size: 1.28571rem;
+  line-height: 21px;
+  line-height: 1.5rem;
+  margin-top: 21px;
+  margin-top: 1.5rem;
+  margin-bottom: 21px;
+  margin-bottom: 1.5rem;
+}
+
+/* line 41, ../scss/_typography.scss */
+h5 {
+  font-size: 16px;
+  font-size: 1.14286rem;
+  line-height: 21px;
+  line-height: 1.5rem;
+  margin-top: 11px;
+  margin-top: 0.75rem;
+  margin-bottom: 11px;
+  margin-bottom: 0.75rem;
+}
+
+/* line 47, ../scss/_typography.scss */
+h6 {
+  font-size: 15px;
+  font-size: 1.07143rem;
+  line-height: 21px;
+  line-height: 1.5rem;
+  margin-top: 11px;
+  margin-top: 0.75rem;
+  margin-bottom: 11px;
+  margin-bottom: 0.75rem;
+}
+
+/* line 53, ../scss/_typography.scss */
+p {
+  margin-top: 21px;
+  margin-top: 1.5rem;
+  margin-bottom: 21px;
+  margin-bottom: 1.5rem;
+}
+
+/* Changing Susy default global settings */
+/* line 13, ../scss/main.scss */
+ul,
+li,
+ul.menu li {
   margin: 0;
   padding: 0;
 }
 
-/* line 15, ../scss/main.scss */
+/* line 20, ../scss/main.scss */
 tbody {
   border: none;
 }
 
-/* line 17, ../scss/main.scss */
-a, input {
+/* line 24, ../scss/main.scss */
+a,
+input {
   text-decoration: none;
   outline: none !important;
+}
+
+/* line 31, ../scss/main.scss */
+#header .header-wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-left: 2.12766%;
+  padding-right: 2.12766%;
+}
+
+/* line 38, ../scss/main.scss */
+#block-system-main-menu .menu li {
+  list-style: none;
 }
