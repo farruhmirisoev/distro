@@ -82,7 +82,7 @@
       
       <!-- BANER -->
       <div id="baner">    
-        <?php print render($page['baner']); ?>
+        <?php print render($page['baner']); ?>        
       </div>
       
       <!-- PROMOTION -->

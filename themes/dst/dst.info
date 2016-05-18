@@ -3,7 +3,8 @@ description = DataSite
 core = 7.x
 engine = phptemplate
 
-stylesheets[all][] 		= scss/main.scss
+stylesheets[all][]		= css/font-awesome.min.css
+stylesheets[all][] 		= css/main.css
 
 scripts[] = js/main.js
 
@@ -19,4 +20,4 @@ regions[underground]    = Underground
 regions[sidebar_first]  = First Sidebar
 regions[sidebar_second] = Second Sidebar
 regions[footer]         = Footer
-regions[footer_bottom]         = Footer-bottom
+regions[footer_bottom]  = Footer-bottom
