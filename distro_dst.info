@@ -97,4 +97,5 @@ dependencies[] = webform
 ;others
 dependencies[] = empty_front_page
 dependencies[] = module_filter
+dependencies[] = minify
 
